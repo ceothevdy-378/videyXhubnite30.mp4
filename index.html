@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watch Video</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      width: 100vw;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(180deg, #141414 0%, #1a1a1a 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .main-content {
+      background: rgba(26,26,26,0.97);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.55);
+      border: 2px solid #e50914;
+      padding: 38px 32px 32px 32px;
+      max-width: 400px;
+      width: 90vw;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.1rem;
+      margin-bottom: 24px;
+      color: #e50914;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 12px #000;
+    }
+    .netflix-btn {
+      display: inline-block;
+      margin-top: 24px;
+      margin-bottom: 20px;
+      padding: 16px 40px;
+      background: linear-gradient(90deg, #e50914 60%, #ff6f00 100%);
+      color: #fff;
+      font-size: 1.18rem;
+      font-family: inherit;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 16px rgba(229,9,20,0.13);
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+    .netflix-btn:hover {
+      background: #b0060c;
+      transform: scale(1.05);
+    }
+    /* Ad below Play Now button - no background or border */
+    .ad-area {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 18px auto;
+      padding: 0;
+      text-align: center;
+      /* No background, border, or box-shadow */
+    }
+    #histats_counter {
+      margin-top: 28px;
+      text-align: center;
+      opacity: .9;
+    }
+    @media (max-width: 600px) {
+      .main-content {
+        padding: 20px 8px 18px 8px;
+        max-width: 96vw;
+      }
+      h1 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+      }
+      .netflix-btn {
+        padding: 12px 18vw;
+        font-size: 1rem;
+      }
+      .ad-area {
+        max-width: 98vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <h1>Watch Video</h1>
+    <a class="netflix-btn" href="https://creatorvideyco-mp4.github.io/videyXhub21.mp4" target="_blank">Play Now</a>
+    <!-- Ad directly below the Play Now button, no background -->
+    <div class="ad-area">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '4a2fc598ebbbdbc95eb3bef73798c939',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/4a2fc598ebbbdbc95eb3bef73798c939/invoke.js"></script>
+    </div>
+    <div id="histats_counter"></div>
+  </div>
+  <!-- Histats.com Counter -->
+  <script type="text/javascript">
+    var _Hasync= _Hasync|| [];
+    _Hasync.push(['Histats.start', '1,4573229,4,0,0,0,00010000']);
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+    _Hasync.push(['Histats.framed_page', '']);
+    (function() {
+      var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+      hs.src = ('//s10.histats.com/js15_as.js');
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);	
+    })();
+  </script>
+  <noscript>
+    <a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4573229&101" alt="" border="0"></a>
+  </noscript>
+</body>
+</html>
